@@ -1,0 +1,11 @@
+<h1>Flatiron Widgets: Open Orders</h1>
+
+<br>
+<ol>
+<% @orders.each do |order| %>
+    <tr class="order">
+        <li>Title: <%= order[:id] %> %></li>
+    </tr>
+<% end %>
+</ol>
+
